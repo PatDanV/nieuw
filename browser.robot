@@ -3,7 +3,7 @@ Resource       testsettings.resource
 
 
 *** Test Cases ***
-test1
+tests
     New Page     https://practicesoftwaretesting.com/
     Click        [data-test=nav-sign-in]
     Fill Text    [data-test=email]   customer@practicesoftwaretesting.com
