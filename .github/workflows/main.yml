@@ -23,7 +23,7 @@ jobs:
     - name: Init browsers
       run: rfbrowser init  
     - name: Run Test and create report
-      run: python -m robot -d results -x junit-report.xml "tests"
+      run: python -m robot -d results -x junit-report.xml "Tests"
       continue-on-error: true
     - name: Publish test results
       uses: actions/upload-artifact@v4
