@@ -1,9 +1,6 @@
 *** Settings ***
 Resource       testsettings.resource
 
-*** Keywords ***
-
-
 
 *** Test Cases ***
 test1
